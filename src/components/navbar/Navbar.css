@@ -1,0 +1,49 @@
+.navbar {
+  width: 100%;
+  background-color: #06040000;
+  color: rgb(255, 247, 186);
+  /* padding-top: 1rem;
+  padding-bottom: 1rem; */
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+.navbar-logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+  margin-left: 2rem;
+  text-decoration: none;
+  background-color: #06040000;
+  border: none;
+}
+
+.navbar-buttons {
+  display: flex;
+  margin: 0.5rem;
+}
+
+/* Apply same style to buttons and Home link */
+.nav-btn {
+  background-color: #06040000;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  font-weight: 500;
+  cursor: pointer;
+  margin: 0.5rem;
+  transition: background-color 0.3s ease;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.nav-btn:hover {
+  background-color: #658ac600;
+}
